@@ -47,8 +47,8 @@ BG_Bright_White = "\u001b[47m"
 #Rest Color
 Rest = "\u001b[0m"
 
-Host = '127.0.0.1'
-Port = 46664
+Host = '127.3.4.68'
+Port = 7437
 
 Server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 Server.bind((Host, Port))
